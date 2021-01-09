@@ -3,9 +3,13 @@ header {
     color: ghostwhite;
     padding: 10px 15px;
 
-    border-width: 12px; /* 16px 24px 8px 12px */
-    border-style: solid; /* dashed solid */
-    border-color: #ffa949; /* tomato orchid olivedrab*/
+    /*border-top-style: solid;*/ /* top */
+    /*border-top-width: 10px;*/
+    /*border-top-color: #ffa949;*/
+    /*border-top: solid 10px #ffa949;*/
+    border-width: 12px; /* 16px 24px 8px 12px */ /* top right bottom left */
+    border-style: solid; /* dashed solid */ /* top/bottom left/right */
+    border-color: #ffa949; /* tomato orchid olivedrab*/ /* top left/right bottom */
     /*border: solid 12px #ffa949;*/
     border-bottom-color: #cf7919;
 }
