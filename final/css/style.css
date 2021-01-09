@@ -7,4 +7,20 @@ header {
     border-style: solid;
     border-color: #ffa949;
     border-bottom-color: #cf7919;
+
+    /*margin-top: 10px;*/
+    /*margin-right: 12px;*/
+    /*margin-bottom: 14px;*/
+    /*margin-left: 16px;*/
+    /*margin: 10px 12px 14px 16px;*/
+    margin: -8px -8px 20px;
+}
+footer {
+    width: 200px;
+    padding: 4px;
+    border: solid 1px #ffa949;
+    margin: 30px auto 15px;
+    color: #294969;
+    font-size: .8rem;
+    text-align: center;
 }
