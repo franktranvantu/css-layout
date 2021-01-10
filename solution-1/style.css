@@ -1,0 +1,6 @@
+/*Let's style parts of a web page using padding, borders, and margins. First, target the header element.
+Set the top padding to 20 pixels and the bottom padding to 25 pixels.*/
+
+header {
+    padding: 20px 0 25px;
+}

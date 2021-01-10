@@ -1,0 +1,6 @@
+/*Next, give the header a solid, orange bottom border that's 10px wide.*/
+
+header {
+    padding: 20px 0 25px;
+    border-bottom: solid orange 10px;
+}
