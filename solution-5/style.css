@@ -1,0 +1,15 @@
+/*Finally, give the element with the class .featured a dotted, lightgrey top border that's 2px wide.*/
+
+header {
+    padding: 20px 0 25px;
+    border-bottom: solid orange 10px;
+}
+.intro {
+    padding: 1rem;
+}
+footer {
+    margin-top: 50px;
+}
+.featured {
+    border-top: dotted 2px lightgrey;
+}

@@ -1,0 +1,6 @@
+/*Target the section element with the class intro. Set the padding on all 4 sides to 1rem.*/
+
+header {
+    padding: 20px 0 25px;
+    border-bottom: solid orange 10px;
+}
