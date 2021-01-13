@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px;
+}
 header {
     background-color: #294969;
     color: ghostwhite;
@@ -8,12 +14,16 @@ header {
     border-color: #ffa949;
     border-bottom-color: #cf7919;
 
-    /*margin-top: 10px;*/
-    /*margin-right: 12px;*/
-    /*margin-bottom: 14px;*/
-    /*margin-left: 16px;*/
-    /*margin: 10px 12px 14px 16px;*/
     margin: -8px -8px 20px;
+}
+aside img {
+    width: 600px;
+}
+#bio {
+    width: 600px;
+    padding: 2rem;
+    background-color: mistyrose;
+    border: solid 5px tomato;
 }
 footer {
     width: 200px;

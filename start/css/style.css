@@ -7,4 +7,15 @@ header {
     border-style: solid;
     border-color: #ffa949;
     border-bottom-color: #cf7919;
+
+    margin: -8px -8px 20px;
+}
+footer {
+    width: 200px;
+    padding: 4px;
+    border: solid 1px #ffa949;
+    margin: 30px auto 15px;
+    color: #294969;
+    font-size: .8rem;
+    text-align: center;
 }
