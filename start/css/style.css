@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px;
+}
 header {
     background-color: #294969;
     color: ghostwhite;
@@ -9,6 +15,15 @@ header {
     border-bottom-color: #cf7919;
 
     margin: -8px -8px 20px;
+}
+aside img {
+    width: 600px;
+}
+#bio {
+    width: 600px;
+    padding: 2rem;
+    background-color: mistyrose;
+    border: solid 5px tomato;
 }
 footer {
     width: 200px;
