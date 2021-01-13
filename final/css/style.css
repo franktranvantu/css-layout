@@ -1,4 +1,4 @@
-/* aside img */
+/* header */
 /* #bio */
 
 * {
@@ -8,6 +8,7 @@ html {
     font-size: 20px;
 }
 header {
+    height: 25vh;
     background-color: #294969;
     color: ghostwhite;
     padding: 10px 15px;
@@ -18,6 +19,12 @@ header {
     border-bottom-color: #cf7919;
 
     margin: -8px -8px 20px;
+}
+section {
+    min-height: 100vh;
+    padding: 1rem;
+    border-bottom: dotted 2px #666;
+    background-color: azure;
 }
 aside img, #bio {
     width: 100%;
