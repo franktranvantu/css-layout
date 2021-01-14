@@ -1,18 +1,11 @@
-/* The logo is an <img>, so it displays inline with surrounding content by default.
-The logo displays on the same line as .main-list, and the auto margins do not affect it.
-Place the .logo on a separate line by changing its display mode. */
+/* The logo's absolute position is relative to the browser viewport.
+Make .card the new positioning context for .logo. */
 
-header {
-    text-align: center;
-}
 .logo {
-    width: 60px;
-    margin: auto;
-    display: block;
+    position: absolute;
+    top: -45px;
+    left: 20px;
 }
-.main-list {
-    display: inline-block;
-}
-.main-list li {
-    display: inline-block;
+.card {
+    position: relative;
 }

@@ -1,0 +1,16 @@
+/* Finally, select the div with the class 'banner'.
+Use the position and top properties to 'stick' the banner to the top of the viewport
+when scrolling down the page. */
+
+.logo {
+    position: absolute;
+    top: -45px;
+    left: 20px;
+}
+.card {
+    position: relative;
+}
+.banner {
+    position: sticky;
+    top: 0;
+}
