@@ -1,6 +1,5 @@
-/* .hide */
-/* section a */
-/* ul li */
+/* figure */
+/* figcaption */
 
 * {
     box-sizing: border-box;
@@ -20,6 +19,17 @@ header {
     border-bottom-color: #cf7919;
 
     margin: -8px -8px 20px;
+}
+figure {
+    position: relative;
+    margin: 0;
+}
+figcaption {
+    background-color: yellow;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
 }
 .hide {
     display: none;
@@ -42,7 +52,7 @@ section {
     border-bottom: dotted 2px #666;
     background-color: azure;
 }
-aside img, #bio {
+figure, aside img, #bio {
     width: 100%;
     max-width: 600px;
 }
