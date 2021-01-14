@@ -1,6 +1,9 @@
-/*Next, give the header a solid, orange bottom border that's 10px wide.*/
+/*Next, select the section element with the class .intro.
+Set its width value to 75% of the overall viewport width.*/
 
 header {
-    padding: 20px 0 25px;
-    border-bottom: solid orange 10px;
+    height: 25vh;
+}
+section.intro {
+    width: 75vw;
 }
