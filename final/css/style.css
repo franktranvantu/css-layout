@@ -1,5 +1,6 @@
-/* header */
-/* section */
+/* .hide */
+/* section a */
+/* ul li */
 
 * {
     box-sizing: border-box;
@@ -19,6 +20,21 @@ header {
     border-bottom-color: #cf7919;
 
     margin: -8px -8px 20px;
+}
+.hide {
+    display: none;
+}
+section a {
+    display: block;
+    background-color: tomato;
+    width: 300px;
+}
+ul li {
+    display: inline-block;
+    width: 30%;
+    padding: 20px 40px;
+    background-color: yellow;
+    text-align: center;
 }
 section {
     min-height: 100vh;
