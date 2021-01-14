@@ -1,0 +1,13 @@
+/* Display the list items inside .main-list side by side.
+Use the display value that generates a block element that flows with surrounding content. */
+
+header {
+    text-align: center;
+}
+.logo {
+    width: 60px;
+    margin: auto;
+}
+.main-list li {
+    display: inline-block;
+}

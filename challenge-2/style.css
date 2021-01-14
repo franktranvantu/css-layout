@@ -1,0 +1,15 @@
+/* The <ul> with the class main-list is a block-level element by default,
+so it takes up its container's full width. Set .main-list to be as wide as the content inside it.
+Change the display of .main-list to the display value that generates a block element that
+doesn't take up a full line. */
+
+header {
+    text-align: center;
+}
+.logo {
+    width: 60px;
+    margin: auto;
+}
+.main-list li {
+    display: inline-block;
+}

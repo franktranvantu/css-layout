@@ -1,0 +1,17 @@
+/* The logo is an <img>, so it displays inline with surrounding content by default.
+The logo displays on the same line as .main-list, and the auto margins do not affect it.
+Place the .logo on a separate line by changing its display mode. */
+
+header {
+    text-align: center;
+}
+.logo {
+    width: 60px;
+    margin: auto;
+}
+.main-list {
+    display: inline-block;
+}
+.main-list li {
+    display: inline-block;
+}
