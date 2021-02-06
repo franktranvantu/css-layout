@@ -1,9 +1,9 @@
-In our last section, we used CSS media queries to optimize our layout for the printed page. 
+Using CSS Media Queries, you can build a website that remains legible on a variety of viewports and device orientations. 
 
-While that’s useful, and a fun exercise, I would imagine you’re anxious to design for different screen sizes. 
+However, it’s critical that you let mobile browsers know your content is mobile-optimized. 
 
-After all, few things are more exciting for a front end web developer than launching a site that looks equally great on a small and large screen. 
+Otherwise, the browser will still zoom out, and your content will be difficult to read and interact with. 
 
-To target different characteristics of the screen viewing our web page, we need more than just to select the media type, as we did in our last video. 
+Luckily, preventing mobile browsers from zooming out automatically is pretty simple. 
 
-We need to write CSS rules that apply only when certain characteristics are met–when the device is in landscape format, for example, or when the viewport is wider than 800 pixels.
+We’re going to add a meta viewport declaration to the head of every page of our website that’s mobile optimized.
