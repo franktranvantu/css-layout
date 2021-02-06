@@ -1,7 +1,11 @@
 /*
-Select the p element with the class .clear.
-Add the property and value that forces the paragraph not to wrap next to the floated image.
+Next, create a new media query that targets all devices when the viewport width is 769px or wider.
+Inside the media query, target the div with the ID logo and set the font-size to 1.4rem.
+Finally, target the h1 element and set its font-size to 4rem.
 */
-img {
-  float: left;
+@media screen and (min-width: 421px) {
+  header {
+    background-color: #294969;
+    color: ghostwhite;
+  }
 }

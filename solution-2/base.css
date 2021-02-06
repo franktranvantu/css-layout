@@ -9,22 +9,18 @@ body {
   margin: 0;
 }
 header {
-  background-color: #294969;
-  color: ghostwhite;
-  padding: 0.5em 1em;
+  padding: 1em 1em;
 }
-img {
-  width: 250px;
-  height: auto;
-  margin: 0 1.5em 1em 0;
-}
-h1 {
-  font-size: 1.25em;
-  margin-top: 1.5em;
+h2 {
+  margin-top: 0;
 }
 section {
-  padding: 1.5rem 1rem;
   background-color: azure;
+  padding: 1rem;
+}
+.intro {
+  margin: 0 auto;
+  background-color: papayawhip;
 }
 footer {
   padding: 1em;
