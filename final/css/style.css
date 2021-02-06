@@ -11,6 +11,7 @@ html {
 header {
     position: fixed;
     top: 0;
+    z-index: 2;
 
     background-color: #294969;
     color: ghostwhite;
@@ -30,6 +31,7 @@ article {
 #interesting-banner {
     position: sticky;
     top: 0;
+    z-index: 3;
 
     background-color: firebrick;
     color: white;
@@ -42,6 +44,7 @@ article {
 figure {
     position: relative;
     margin: 0;
+    z-index: 1;
 }
 figcaption {
     background-color: yellow;
@@ -97,4 +100,13 @@ footer {
 
 .clear {
     clear: both;
+}
+
+@media print {
+    section {
+        min-height: auto;
+    }
+    #interesting-banner {
+        display: none;
+    }
 }
