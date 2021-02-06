@@ -1,7 +1,0 @@
-/*
-Select the p element with the class .clear.
-Add the property and value that forces the paragraph not to wrap next to the floated image.
-*/
-img {
-  float: left;
-}
