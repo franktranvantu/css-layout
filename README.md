@@ -1,9 +1,5 @@
-Using CSS Media Queries, you can build a website that remains legible on a variety of viewports and device orientations. 
+Looking one more time at CSS Tricks’s diagram called anatomy of a media query, you might notice that we skipped one portion of the diagram. 
 
-However, it’s critical that you let mobile browsers know your content is mobile-optimized. 
+CSS Media Queries accept logical operators that allow you to combine multiple characteristics into one query. 
 
-Otherwise, the browser will still zoom out, and your content will be difficult to read and interact with. 
-
-Luckily, preventing mobile browsers from zooming out automatically is pretty simple. 
-
-We’re going to add a meta viewport declaration to the head of every page of our website that’s mobile optimized.
+For example, what if we wanted to set a minimum and maximum viewport width for applying a CSS rule?
