@@ -62,8 +62,9 @@ section a {
     width: 300px;
 }
 ul li {
-    display: inline-block;
-    width: 30%;
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
     padding: 20px 40px;
     background-color: yellow;
     text-align: center;
@@ -93,13 +94,7 @@ footer {
     text-align: center;
 }
 .small-img {
-    float: left;
-    width: 300px;
-    margin: 0 1rem 1rem 0;
-}
-
-.clear {
-    clear: both;
+    width: 100%;
 }
 
 @media print {
@@ -108,5 +103,23 @@ footer {
     }
     #interesting-banner {
         display: none;
+    }
+}
+
+@media screen and (min-width: 995px) {
+    ul li {
+        display: inline-block;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .small-img {
+        float: left;
+        width: 300px;
+        margin: 0 1rem 1rem 0;
+    }
+    .clear {
+        clear: both;
     }
 }
