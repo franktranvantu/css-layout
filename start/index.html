@@ -12,7 +12,7 @@
     <article>
       <section>
         <h1>The verdict is in. CSS Layout is great!</h1>
-        <p>I’ve been working with CSS for a while now, and I have to say, it’s pretty awesome. I love being able to separate content from presentation, and to keep all my styles in an external stylesheet.</p>
+        <p class="hide">I’ve been working with CSS for a while now, and I have to say, it’s pretty awesome. I love being able to separate content from presentation, and to keep all my styles in an external stylesheet.</p>
         <p>I’ve had a pretty good grasp on the basics for a while now, but I needed to learn more about how to control layout with my CSS. Understanding CSS layout meant first exploring the parts of the CSS box model.</p>
       </section>
       <section>
@@ -25,6 +25,7 @@
         <p>It’s pretty easy to understand the Content portion of the box model. The content is whatever your HTML consists of. It could be a paragraph full of text, or a bulleted list, or an image.</p>
         <p>Beginning developers may have some trouble keeping the other parts of the box model straight, so let’s examine them one by one.</p>
       </section>
+      <div id="interesting-banner">Look! I'm a CSS Wizard now!!!</div>
       <section>
         <h2>Padding</h2>
         <p>Padding immediately surrounds the content area. Padding is often used to give the content area some breathing room by separating the content from the surrounding border area.</p>
@@ -40,9 +41,12 @@
       </section>
     </article>
     <aside>
-      <h3>About me</h3>
-      <img src="developer-diane.jpg" alt="Developer Diane coding on her laptop.">
-      <p>Developer Diane is a graduate of Treehouse’s Front End Web Development Techdegree. She’s currently a junior developer at Super Web Design Shop.</p>
+      <h3>About me
+      <figure>
+        <img src="developer-diane.jpg" alt="Developer Diane coding on her laptop.">
+        <figcaption>Developer Diane coding on her laptop</figcaption>
+      </figure>
+      <p id="bio">Developer Diane is a graduate of Treehouse’s Front End Web Development Techdegree. She’s currently a junior developer at Super Web Design Shop.</p>
       <h3>Other articles I’ve written</h3>
       <nav>
         <ul>

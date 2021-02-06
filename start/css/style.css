@@ -1,3 +1,7 @@
+/* header */
+/* article */
+/* #interesting-banner */
+
 * {
     box-sizing: border-box;
 }
@@ -5,9 +9,12 @@ html {
     font-size: 20px;
 }
 header {
-    height: 25vh;
+    position: fixed;
+    top: 0;
+
     background-color: #294969;
     color: ghostwhite;
+    width: 100%;
     padding: 10px 15px;
 
     border-width: 12px;
@@ -15,6 +22,21 @@ header {
     border-color: #ffa949;
     border-bottom-color: #cf7919;
 
+    margin: -8px -8px 20px;
+}
+article {
+    margin-top: 3rem;
+}
+#interesting-banner {
+    position: sticky;
+    top: 0;
+
+    background-color: firebrick;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+
+    border: solid 12px lightsalmon;
     margin: -8px -8px 20px;
 }
 figure {
